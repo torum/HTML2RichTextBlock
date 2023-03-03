@@ -1,4 +1,4 @@
-﻿# HTML2RichTextBlock
+# HTML2RichTextBlock
 
 This is a WinUI3 (Windows App SDK) class library to display HTML fragments in a RichTextBlock.
 
@@ -35,17 +35,23 @@ or
 ```
 
 ## Limitations:
-- Obviously a lot. Nortably, 
+Obviously a lot. Nortably, 
 
 * An iframe will be shown as a inline link. 
 * No base url support (yet). 
 * ..etc.
 
 ## Screenshot:  
+![Screenshot](https://github.com/torum/HTML2RichTextBlock/blob/master/SampleScreenshotAcrylicBackdrop.png?raw=true)  
+
+## Requirements:
+* [.NET 6](https://github.com/dotnet/runtime)  
+* [WinUI3 (WindowsAppSDK)](https://github.com/microsoft/WindowsAppSDK) 
+* [Html Agility Pack](https://github.com/zzzprojects/html-agility-pack)
 
 ## Credits:  
 - Code originaly adapted from [https://blogs.msdn.microsoft.com/tess/2013/05/13/displaying-html-content-in-a-richtextblock/](https://blogs.msdn.microsoft.com/tess/2013/05/13/displaying-html-content-in-a-richtextblock/)  
 
-- Forked and Modified from [https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs](https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs)  
+- Forked and modified from [https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs](https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs)  
 
  
