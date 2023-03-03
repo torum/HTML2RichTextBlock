@@ -1,6 +1,8 @@
-﻿This is a WinUI3 (Windows App SDK) class library to display HTML in a RichTextBlock easily
+﻿# HTML2RichTextBlock
 
-**Usage:** 
+This is a WinUI3 (Windows App SDK) class library to display HTML fragments in a RichTextBlock.
+
+## Usage: 
 
 1) In a XAML file, declare the namespace:
 
@@ -11,7 +13,7 @@ xmlns:html="using:HTML2RichTextBlock"
 2) In RichTextBlock controls, set or databind the Html property: 
 
 ```xaml
-<RichTextBlock html:HtmlProperties.Html="{x:Bind ViewModel.Content, Mode=OneWay}" />
+<RichTextBlock html:HtmlProperties.Html="{x:Bind ViewModel.HTMLContent, Mode=OneWay}" />
 
 ```
 
@@ -32,7 +34,18 @@ or
 </RichTextBlock>
 ```
 
+## Limitations:
+- Obviously a lot. Nortably, 
 
+* An iframe will be shown as a inline link. 
+* No base url support (yet). 
+* ..etc.
 
-// Code originaly adapted from https://blogs.msdn.microsoft.com/tess/2013/05/13/displaying-html-content-in-a-richtextblock/
-// Modified from https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs
+## Screenshot:  
+
+## Credits:  
+- Code originaly adapted from [https://blogs.msdn.microsoft.com/tess/2013/05/13/displaying-html-content-in-a-richtextblock/](https://blogs.msdn.microsoft.com/tess/2013/05/13/displaying-html-content-in-a-richtextblock/)  
+
+- Forked and Modified from [https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs](https://github.com/xleon/HTML2XAML/blob/master/XAMLHtml/XAMLHtml.cs)  
+
+ 
